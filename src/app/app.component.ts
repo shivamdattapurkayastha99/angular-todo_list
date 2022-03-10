@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import { title } from 'process';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo_list';
+  constructor(){
+  // setTimeout(() => {
+  //   this.title="Changed title";
+
+
+  //   },2000);
 }
+}
+
